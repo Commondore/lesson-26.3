@@ -1,0 +1,25 @@
+{
+  "name": "lesson-26.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist",
+    "copy": "cp -r {css,*.html} dist",
+    "deploy": "npm run build && npm run copy && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Commondore/lesson-26.3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Commondore/lesson-26.3/issues"
+  },
+  "homepage": "https://github.com/Commondore/lesson-26.3#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
